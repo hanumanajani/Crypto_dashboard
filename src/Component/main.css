@@ -1,0 +1,51 @@
+.col-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    /* background-color: cornflowerblue; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    width: 180px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.row-box{
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Nav-bar{
+  padding: 10px;
+  border: 0.5px solid wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+#crypto-select{
+    width: 300px;;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mixed-chart{
+    border:3px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+}
